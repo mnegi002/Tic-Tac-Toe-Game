@@ -1,0 +1,19 @@
+.header{
+    /* border:2px solid red; */
+    text-align: center;
+    height: 180px;
+}
+
+.headimg{
+    width: 6rem;
+    object-fit: contain;
+    margin: 2rem auto 1rem auto;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
+}
+
+.heading{
+        font-family: 'Caprasimo', cursive;
+        font-size: 2.5rem;
+        margin: 0 auto 3rem auto;
+        color: #3f3b00;
+}
