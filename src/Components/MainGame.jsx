@@ -66,7 +66,7 @@ function Game() {
           <Player name='Player 1' symbol='X' isActive={activePlayer === 'X'} />
           <Player name='Player 2' symbol='O' isActive={activePlayer === 'O'} />
         </ol>
-        {winner || hasDraw && <Winner winner={winner} />}
+        {(winner || hasDraw) && <Winner winner={winner} />}
         <GameBoard onSelectSquare={selectSquareHandler} board={boardGame} />
       </div>
       <Moves turns={gameTurns} />
